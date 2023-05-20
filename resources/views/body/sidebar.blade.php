@@ -64,11 +64,11 @@
 <div class="collapse" id="sidebarCrm">
     <ul class="nav-second-level">
 <li>
-<a href="#">All Customer</a>
+<a href="{{ route('all.customer') }}">All Customer</a>
 </li>
 
 <li>
-<a href="#">Add Customer</a>
+<a href="{{ route('add.customer') }}">Add Customer</a>
 </li>
 
          
@@ -85,10 +85,10 @@
 <div class="collapse" id="sidebarEmail">
 <ul class="nav-second-level">
     <li>
-        <a href="#">All Supplier</a>
+        <a href="{{ route('all.supplier') }}">All Supplier</a>
     </li>
     <li>
-        <a href="#">Add Supplier</a>
+        <a href="{{ route('add.supplier') }}">Add Supplier</a>
     </li>
     
 </ul>
