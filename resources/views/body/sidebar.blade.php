@@ -44,11 +44,11 @@
 <ul class="nav-second-level">
 
 <li>
-    <a href="#">All Employee</a>
+    <a href="{{ route('all.employee') }}">All Employee</a>
 </li>
 
 <li>
-    <a href="#">Add Employee </a>
+    <a href="{{ route('add.employee') }}">Add Employee </a>
 </li>
 
 </ul>
