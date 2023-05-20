@@ -51,11 +51,7 @@
                 <td>{{ $item['employee']['salary'] }}</td>
                 <td>
 
-                    @if($item->advance_salary == NULL )
-                        <p>No Advance</p>
-                    @else
-                     {{ $item->advance_salary }}
-                    @endif
+                   
 
                   </td>
                 <td>

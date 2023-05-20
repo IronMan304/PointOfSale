@@ -13,7 +13,10 @@ return new class extends Migration
     {
         Schema::create('advance_salaries', function (Blueprint $table) {
             $table->id();
-            
+            $table->integer('employee_id');
+            $table->string('month');
+            $table->string('year');
+            $table->string('advance_salary');
             $table->timestamps();
         });
     }

@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('pay_salaries', function (Blueprint $table) {
             $table->id();
+            $table->integer('employee_id');
+            $table->string('salary_month');
+            $table->string('paid_amount');
+            $table->string('advance_salary');
+            $table->string('due_salary');
             $table->timestamps();
         });
     }

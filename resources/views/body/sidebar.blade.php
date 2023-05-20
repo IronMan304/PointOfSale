@@ -104,18 +104,18 @@
 <div class="collapse" id="salary">
 <ul class="nav-second-level">
     <li>
-        <a href="#">Add Advance Salary</a>
+        <a href="{{ route('add.advance.salary') }}">Add Advance Salary</a>
     </li>
     <li>
-        <a href="#">All Advance Salary</a>
+        <a href="{{ route('all.advance.salary') }}">All Advance Salary</a>
     </li>
 
      <li>
-        <a href="#">Pay Salary</a>
+        <a href="{{ route('pay.salary') }}">Pay Salary</a>
     </li> 
 
     <li>
-        <a href="#">Last Month Salary</a>
+        <a href="{{ route('month.salary') }}">Last Month Salary</a>
     </li>
     
 </ul>
@@ -131,7 +131,7 @@
 <div class="collapse" id="attendence">
 <ul class="nav-second-level">
     <li>
-        <a href="#">Employee Attendence List </a>
+        <a href="{{ route('employee.attend.list') }}">Employee Attendence List </a>
     </li>
 
 </ul>
@@ -148,7 +148,7 @@
 <div class="collapse" id="category">
 <ul class="nav-second-level">
     <li>
-        <a href="#">All Category </a>
+        <a href="{{ route('all.category') }}">All Category </a>
     </li>
 
 </ul>
@@ -164,14 +164,14 @@
 <div class="collapse" id="product">
 <ul class="nav-second-level">
     <li>
-        <a href="#">All Product </a>
+        <a href="{{ route('all.product') }}">All Product </a>
     </li>
 
      <li>
-        <a href="#">Add Product </a>
+        <a href="{{ route('add.product') }}">Add Product </a>
     </li>
      <li>
-        <a href="#">Import Product </a>
+        <a href="{{ route('import.product') }}">Import Product </a>
     </li>
 
 </ul>

@@ -11,8 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('attendances', function (Blueprint $table) {
+        Schema::create('attendences', function (Blueprint $table) {
             $table->id();
+            $table->integer('employee_id');
+            $table->date('date');
+            $table->string('attend_status');
             $table->timestamps();
         });
     }
